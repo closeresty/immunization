@@ -1,0 +1,105 @@
+/*
+
+COINEX - Crypto Currency HTML Template 
+Author: iqonicthemes.in
+Version: 3
+Design and Developed by: iqonicthemes.in
+
+*/
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+/* Displays/Screens (e.g. 24" WS @ 1920x1080) -------------- */
+@media only screen and (min-width:1890px) and (max-width:2529px) { }
+@media(max-width:1399px) {
+	header .navbar-light .nav-item .nav-link { font-size: 14px; }
+}
+@media(max-width:1199px) {
+	.container { max-width: 960px; }
+	header { padding: 20px 15px; }
+	header .navbar-light .nav-item .nav-link { font-size: 13px; }
+	header .navbar-light .nav-item { margin: 0 3px; }
+	.owl-carousel .owl-nav .owl-prev { left: -2%; }
+	.owl-carousel .owl-nav .owl-next { right: -2%; }
+	header.menu-sticky { padding: 10px 15px; }
+	h1 { font-size: 44px; }
+	.iq-banner .iq-countdown { padding: 40px 20px; }
+	.iq-countdown #countdown li { padding: 0 15px; }
+	.iq-our-team-2 .team-blog:hover .team-social { bottom: 17px; }
+}
+@media(max-width:992px) {
+
+	/*----------------
+	Section padding 
+	----------------*/
+	.overview-block-ptb { padding: 70px 0; }
+	.overview-block-pt { padding: 70px 0 0; }
+	.overview-block-pb { padding: 0 0 70px; }
+	.iq-mt-100 { margin-top: 70px; }
+	header { padding: 15px 15px; }
+	.heading-title p { padding: 0; }
+	.container { max-width: 720px; }
+	.navbar-light .navbar-toggler { color: #fff; border-color: #fff; padding: 2px 7px; position: absolute; right: 220px; font-size: 26px; }
+	.r9-mt-40 { margin-top: 40px; }
+	header .navbar-light .nav-item .nav-link.button { padding: 15px 30px; }
+	header .navbar-collapse { position: absolute; top: 60px; left: 0; width: 100%; background: #2b2b2b; }
+	header .navbar-light .navbar-nav .nav-link:before { display: none; }
+	header .navbar-light .nav-item .nav-link { font-size: 14px; padding: 15px 15px; }
+	header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-nav .nav-link:focus, header .navbar-light .navbar-nav .nav-item.active .nav-link { background: #f9b707; color: #fff; }
+	header .navbar-light .nav:before { top: 10px; }
+	.iq-tranding-Platform .nav-tabs .nav-link span, .d-mobile-none { display: none; }
+	.iq-fancy-box .fancy-icon img { width: auto; }
+	.owl-carousel .owl-nav .owl-prev { left: -8%; }
+	.owl-carousel .owl-nav .owl-next { right: -8%; }
+	.timeline--mobile .timeline__item .timeline__content:after { border-right: 10px solid #131418; }
+	.timeline--mobile .timeline__item .timeline__content:before { border-right: 12px solid #131418; }
+	.iq-banner-2 .iq-countdown { padding-top: 0; }
+	.iq-banner-2 { padding: 22% 0 5%; }
+	#chartrounddiv { height: 250px; }
+	.timeline:not(.timeline--horizontal):before { background-color: #292c34; }
+}
+@media(max-width:991px) { 
+	.iq-our-team-2 .team-blog {
+		width: 71%;
+		height: 71%;
+		border-radius: 50%;
+	}
+}
+@media(max-width:767px) {
+	.iq-banner-3 { padding: 100px 0 50px; }
+	.container { max-width: 100%; }
+	header .navbar-light .nav { display: none; }
+	.navbar-light .navbar-toggler { right: 0; }
+	h1 { font-size: 40px; }
+	h2 { font-size: 32px; }
+	h3 { font-size: 30px; }
+	.owl-carousel .owl-controls { display: none; }
+	.contact-us.overview-block-pt { padding-top: 0; }
+	header { padding: 15px 0px; }
+	.iq-banner { position: relative; padding: 100px 0 50px; }
+	header.menu-sticky { padding: 10px 0px; }
+	.r4-mt-40 { margin-top: 40px; }
+	#chartdiv { width: 100%; height: 290px; }
+	.iq-our-clients.iq-ptb-60 { padding: 30px 0; }
+	.info-share li { margin-bottom: 15px; }
+	.iq-our-team-2 .team-blog {
+		width: 47%;
+}
+
+}
+@media(max-width:479px) {
+	h1 { font-size: 32px; }
+	.iq-banner-2 { padding: 100px 0 50px; }
+	.iq-banner-2 .iq-countdown { padding-left: 0; padding-right: 0; }
+	.iq-countdown #countdown li p { font-size: 11px; }
+	.iq-countdown #countdown li span { font-size: 36px; }
+	.iq-banner .iq-countdown { padding: 40px 5px; }
+	.iq-tranding-Platform .nav-tabs .nav-link { padding: 15px 5px; }
+	.iq-contact-box-01 .iq-icon { float: none; margin-bottom: 10px; }
+	.iq-tranding-Platform .nav-tabs .nav-link i { font-size: 32px; }
+	.contact-us .col-lg-6.iq-pl-50 { padding-left: 15px; }
+}

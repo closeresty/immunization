@@ -1,0 +1,33 @@
+/*---------------------------------------------------------------------
+Variable
+-----------------------------------------------------------------------*/
+
+:root {
+    --iq-title-text: #23292c;
+    --iq-body-text: #666666;
+    --iq-bg-light-color: #f3f3f3;
+    --iq-primary: #f9b707;
+    --iq-primary-light: #f5c795;
+    --iq-primary-dark: #ff6c00;
+    --iq-secondary: #666666;
+    --iq-secondary-light: #c1c1c1;
+    --iq-secondary-dark: #7d7d7d;
+    --iq-info-light:#b4aaec;
+    --iq-success: #64c5ae;
+    --iq-light: #131519;
+    --white: #ffffff;
+    --iq-black: #5ab8e4;
+    --iq-light-border: #f2f2f2;
+    --iq-dark-border: #131418;
+    --iq-gray:#f7f7f7;
+    --iq-bs-btn:#333333;
+    --iq-menu-hover:#999999;
+    --iq-blue: #77a1f5;
+    --iq-dark-bg:#121316;
+    --iq-gray-border:#ced4da;
+    --iq-fancy-box:#181a21;
+    --iq-dark-blue:#242f6c;
+    --iq-border:#202228;
+    --iq-table-brder:#292c34;
+
+  }
